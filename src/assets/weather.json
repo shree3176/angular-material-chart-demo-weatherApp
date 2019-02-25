@@ -1,0 +1,387 @@
+[
+    {
+        "value": 82.9,
+        "year": 1910,
+        "month": 1
+    },
+    {
+        "value": 98.5,
+        "year": 1910,
+        "month": 2
+    },
+    {
+        "value": 26.8,
+        "year": 1910,
+        "month": 3
+    },
+    {
+        "value": 63.5,
+        "year": 1910,
+        "month": 4
+    },
+    {
+        "value": 64.2,
+        "year": 1910,
+        "month": 5
+    },
+    {
+        "value": 64.6,
+        "year": 1910,
+        "month": 6
+    },
+    {
+        "value": 79.8,
+        "year": 1910,
+        "month": 7
+    },
+    {
+        "value": 100.8,
+        "year": 1910,
+        "month": 8
+    },
+    {
+        "value": 15.7,
+        "year": 1910,
+        "month": 9
+    },
+    {
+        "value": 86.7,
+        "year": 1910,
+        "month": 10
+    },
+    {
+        "value": 109.9,
+        "year": 1910,
+        "month": 11
+    },
+    {
+        "value": 124.6,
+        "year": 1910,
+        "month": 12
+    },
+    {
+        "value": 38.4,
+        "year": 1911,
+        "month": 1
+    },
+    {
+        "value": 57.6,
+        "year": 1911,
+        "month": 2
+    },
+    {
+        "value": 55.8,
+        "year": 1911,
+        "month": 3
+    },
+    {
+        "value": 44.0,
+        "year": 1911,
+        "month": 4
+    },
+    {
+        "value": 36.6,
+        "year": 1911,
+        "month": 5
+    },
+    {
+        "value": 73.0,
+        "year": 1911,
+        "month": 6
+    },
+    {
+        "value": 13.2,
+        "year": 1911,
+        "month": 7
+    },
+    {
+        "value": 50.3,
+        "year": 1911,
+        "month": 8
+    },
+    {
+        "value": 56.2,
+        "year": 1911,
+        "month": 9
+    },
+    {
+        "value": 83.2,
+        "year": 1911,
+        "month": 10
+    },
+    {
+        "value": 104.0,
+        "year": 1911,
+        "month": 11
+    },
+    {
+        "value": 160.1,
+        "year": 1911,
+        "month": 12
+    },
+    {
+        "value": 99.8,
+        "year": 1912,
+        "month": 1
+    },
+    {
+        "value": 57.3,
+        "year": 1912,
+        "month": 2
+    },
+    {
+        "value": 108.6,
+        "year": 1912,
+        "month": 3
+    },
+    {
+        "value": 7.8,
+        "year": 1912,
+        "month": 4
+    },
+    {
+        "value": 55.8,
+        "year": 1912,
+        "month": 5
+    },
+    {
+        "value": 116.2,
+        "year": 1912,
+        "month": 6
+    },
+    {
+        "value": 90.7,
+        "year": 1912,
+        "month": 7
+    },
+    {
+        "value": 170.5,
+        "year": 1912,
+        "month": 8
+    },
+    {
+        "value": 49.5,
+        "year": 1912,
+        "month": 9
+    },
+    {
+        "value": 90.5,
+        "year": 1912,
+        "month": 10
+    },
+    {
+        "value": 69.1,
+        "year": 1912,
+        "month": 11
+    },
+    {
+        "value": 102.0,
+        "year": 1912,
+        "month": 12
+    },
+    {
+        "value": 110.5,
+        "year": 1913,
+        "month": 1
+    },
+    {
+        "value": 32.1,
+        "year": 1913,
+        "month": 2
+    },
+    {
+        "value": 98.1,
+        "year": 1913,
+        "month": 3
+    },
+    {
+        "value": 89.4,
+        "year": 1913,
+        "month": 4
+    },
+    {
+        "value": 61.9,
+        "year": 1913,
+        "month": 5
+    },
+    {
+        "value": 34.6,
+        "year": 1913,
+        "month": 6
+    },
+    {
+        "value": 32.5,
+        "year": 1913,
+        "month": 7
+    },
+    {
+        "value": 39.4,
+        "year": 1913,
+        "month": 8
+    },
+    {
+        "value": 59.3,
+        "year": 1913,
+        "month": 9
+    },
+    {
+        "value": 95.6,
+        "year": 1913,
+        "month": 10
+    },
+    {
+        "value": 82.8,
+        "year": 1913,
+        "month": 11
+    },
+    {
+        "value": 49.2,
+        "year": 1913,
+        "month": 12
+    },
+    {
+        "value": 43.0,
+        "year": 1914,
+        "month": 1
+    },
+    {
+        "value": 76.7,
+        "year": 1914,
+        "month": 2
+    },
+    {
+        "value": 105.3,
+        "year": 1914,
+        "month": 3
+    },
+    {
+        "value": 30.5,
+        "year": 1914,
+        "month": 4
+    },
+    {
+        "value": 42.7,
+        "year": 1914,
+        "month": 5
+    },
+    {
+        "value": 55.3,
+        "year": 1914,
+        "month": 6
+    },
+    {
+        "value": 89.4,
+        "year": 1914,
+        "month": 7
+    },
+    {
+        "value": 55.7,
+        "year": 1914,
+        "month": 8
+    },
+    {
+        "value": 43.6,
+        "year": 1914,
+        "month": 9
+    },
+    {
+        "value": 61.6,
+        "year": 1914,
+        "month": 10
+    },
+    {
+        "value": 102.9,
+        "year": 1914,
+        "month": 11
+    },
+    {
+        "value": 179.0,
+        "year": 1914,
+        "month": 12
+    },
+    {
+        "value": 97.1,
+        "year": 1915,
+        "month": 1
+    },
+    {
+        "value": 116.6,
+        "year": 1915,
+        "month": 2
+    },
+    {
+        "value": 34.6,
+        "year": 1915,
+        "month": 3
+    },
+    {
+        "value": 33.3,
+        "year": 1915,
+        "month": 4
+    },
+    {
+        "value": 61.2,
+        "year": 1915,
+        "month": 5
+    },
+    {
+        "value": 30.4,
+        "year": 1915,
+        "month": 6
+    },
+    {
+        "value": 119.9,
+        "year": 1915,
+        "month": 7
+    },
+    {
+        "value": 73.1,
+        "year": 1915,
+        "month": 8
+    },
+    {
+        "value": 39.4,
+        "year": 1915,
+        "month": 9
+    },
+    {
+        "value": 66.4,
+        "year": 1915,
+        "month": 10
+    },
+    {
+        "value": 67.3,
+        "year": 1915,
+        "month": 11
+    },
+    {
+        "value": 168.4,
+        "year": 1915,
+        "month": 12
+    },
+    {
+        "value": 49.4,
+        "year": 1916,
+        "month": 1
+    },
+    {
+        "value": 121.2,
+        "year": 1916,
+        "month": 2
+    },
+    {
+        "value": 99.3,
+        "year": 1916,
+        "month": 3
+    },
+    {
+        "value": 42.1,
+        "year": 1916,
+        "month": 4
+    },
+    {
+        "value": 64.4,
+        "year": 1916,
+        "month": 5
+    }
+]
