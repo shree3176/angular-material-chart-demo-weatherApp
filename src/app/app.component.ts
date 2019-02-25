@@ -34,11 +34,6 @@ export class AppComponent {
     });
   }
 
-  isValidDates() {
-
-
-  }
-
   onFormSubmit(form: NgForm) {
     if (new Date(this.weatherQueryForm.value.startDate) > new Date(this.weatherQueryForm.value.endDate)) {
       this.error = { isError: true, errorMessage: 'Start Date should be earlier than End Date' };
@@ -60,8 +55,6 @@ export class AppComponent {
       console.log(startdateobj);
       console.log(enddateobj);
       }
-      
-    
   }
 
   filterJson(startmonth, startyear, endmonth, endyear, metric, region) {
@@ -73,7 +66,7 @@ export class AppComponent {
   }
 
   private callWeatherService() {
-    this._weather.dailyForecast()
+    this._weather.weatherForecast()
       .subscribe(res => {
         let { year_dataset, value_dataset, month_dataset } = this.createDatasets(res);
         this.drawChart(year_dataset, value_dataset, month_dataset);
