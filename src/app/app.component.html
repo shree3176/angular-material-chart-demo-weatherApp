@@ -26,13 +26,13 @@
         <mat-datepicker #picker2></mat-datepicker>
       </mat-form-field>
     <button mat-raised-button color="primary">Draw Chart</button>
-    
-  </form>
+
+  </form>   
   <div *ngIf="error.isError" style="color: red">
       {{ error.errorMessage }}
    </div>
 
 </div>
-<div *ngIf="chart">
+<div>
   <canvas id="canvas">{{ chart }}</canvas>
 </div>

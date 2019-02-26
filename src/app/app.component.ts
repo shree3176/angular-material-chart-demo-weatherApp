@@ -1,9 +1,7 @@
 import { Component } from '@angular/core';
 import { WeatherService } from './weather.service';
 import { Chart } from 'chart.js';
-import { MatFormFieldControl } from '@angular/material';
 import { FormBuilder, FormGroup, Validators, FormsModule, NgForm } from '@angular/forms';
-
 
 @Component({
   selector: 'app-root',
@@ -21,7 +19,7 @@ export class AppComponent {
 
   regions: string[] = ['England', 'UK', 'Scotland', 'Wales'];
   metrics: string[] = ['Tmax', 'Tmin', 'Rainfall'];
-  chart = [];
+  chart : Chart;
   other = [];
   error: any = { isError: false, errorMessage: '' };
 
@@ -40,7 +38,7 @@ export class AppComponent {
       console.log(this.error.errorMessage);
     }
     else {
-        this.error = { isError: false, errorMessage: '' };
+      this.error = { isError: false, errorMessage: '' };
       let startdateobj = new Date(this.weatherQueryForm.value.startDate);
       let startmonth = startdateobj.getUTCMonth() + 1;
       let startyear = startdateobj.getUTCFullYear();
@@ -61,26 +59,25 @@ export class AppComponent {
     console.log('in filter json method');
     console.log("Start Date :- " + startmonth + "/" + startyear + " End Date :- " + endmonth + "/"
       + endyear + " Metric :- " + metric + " Region :- " + region);
-
-    this.callWeatherService();
-  }
-
-  private callWeatherService() {
-    this._weather.weatherForecast()
+    this._weather.weatherForecast(metric, region)
       .subscribe(res => {
         let { year_dataset, value_dataset, month_dataset } = this.createDatasets(res);
-        this.drawChart(year_dataset, value_dataset, month_dataset);
+        year_dataset.filter(res => res);
+        this.drawChart(year_dataset, value_dataset, month_dataset, metric);
       });
   }
 
-  private drawChart(year_dataset: any[], value_dataset: any[], month_dataset: any[]) {
+  private drawChart(year_dataset: any[], value_dataset: any[], month_dataset: any[],metric) {
+    if (this.chart != null) {
+      this.chart.destroy();
+    }
     this.chart = new Chart('canvas', {
       type: 'line',
       data: {
         labels: year_dataset,
         datasets: [
           {
-            label: 'Rainfall (in mm)',
+            label: metric,
             data: value_dataset,
             borderColor: "#3cba9f",
             fill: true
@@ -110,6 +107,7 @@ export class AppComponent {
   }
 
   private createDatasets(res: Object) {
+    
     let jsonArray: any = res;
     let year_dataset = [];
     let month_dataset = [];
@@ -120,10 +118,5 @@ export class AppComponent {
       value_dataset.push(res[i].value);
     }
     return { year_dataset, value_dataset, month_dataset };
-  }
-
-  drawChartWithoutParams() {
-    //drawing chart without params
-    this.callWeatherService();
   }
 }
